@@ -1,0 +1,72 @@
+REMARK  9 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_2  and  C_3 
+REMARK    2  A    between atoms: C_3  and  C_4 
+REMARK    3  A    between atoms: C_4  and  C_5 
+REMARK    4  A    between atoms: C_5  and  N_6 
+REMARK    5  A    between atoms: C_9  and  C_10 
+REMARK       I    between atoms: C_10  and  N_11 
+REMARK    6  A    between atoms: N_11  and  N_12 
+REMARK    7  A    between atoms: C_13  and  C_14 
+REMARK    8  A    between atoms: C_24  and  O_25 
+REMARK    9  A    between atoms: C_28  and  O_29 
+ROOT
+HETATM    1  C   UNL     1       9.639   1.964  -4.928  1.00  0.00     0.280 C 
+HETATM    2  N   UNL     1      10.432   0.827  -5.015  1.00  0.00    -0.242 N 
+HETATM    3  O   UNL     1       9.625   2.901  -5.715  1.00  0.00    -0.266 OA
+HETATM    4  H   UNL     1      10.432   0.155  -4.252  1.00  0.00     0.192 HD
+ENDROOT
+BRANCH   1   5
+HETATM    5  C   UNL     1       8.830   1.979  -3.689  1.00  0.00     0.135 A 
+HETATM    6  C   UNL     1       7.361   1.810  -3.785  1.00  0.00     0.266 A 
+HETATM    7  N   UNL     1       6.630   1.786  -2.596  1.00  0.00    -0.313 N 
+HETATM    8  O   UNL     1       6.840   1.664  -4.890  1.00  0.00    -0.267 OA
+HETATM    9  C   UNL     1       7.270   1.872  -1.317  1.00  0.00     0.050 A 
+HETATM   10  C   UNL     1       8.668   2.042  -1.261  1.00  0.00     0.025 A 
+HETATM   11  C   UNL     1       6.558   1.783  -0.108  1.00  0.00     0.031 A 
+HETATM   12  C   UNL     1       9.446   2.117  -2.505  1.00  0.00     0.099 A 
+HETATM   13  C   UNL     1       9.309   2.133  -0.011  1.00  0.00     0.016 A 
+HETATM   14  C   UNL     1       8.585   2.052   1.175  1.00  0.00     0.001 A 
+HETATM   15  C   UNL     1       7.210   1.874   1.125  1.00  0.00     0.002 A 
+BRANCH   7  16
+HETATM   16  C   UNL     1       5.175   1.681  -2.727  1.00  0.00     0.132 C 
+BRANCH  16  17
+HETATM   17  C   UNL     1       4.674   0.280  -3.105  1.00  0.00     0.020 C 
+BRANCH  17  18
+HETATM   18  C   UNL     1       5.022  -0.806  -2.088  1.00  0.00     0.001 C 
+BRANCH  18  19
+HETATM   19  C   UNL     1       4.448  -2.158  -2.519  1.00  0.00    -0.004 C 
+HETATM   20  C   UNL     1       4.837  -3.266  -1.555  1.00  0.00     0.005 C 
+ENDBRANCH  18  19
+ENDBRANCH  17  18
+ENDBRANCH  16  17
+ENDBRANCH   7  16
+BRANCH  12  21
+HETATM   21  O   UNL     1      10.809   2.305  -2.348  1.00  0.00    -0.359 OA
+HETATM   22  H   UNL     1      11.205   2.620  -3.184  1.00  0.00     0.218 HD
+ENDBRANCH  12  21
+ENDBRANCH   1   5
+BRANCH   2  23
+HETATM   23  N   UNL     1      11.209   0.623  -6.116  1.00  0.00    -0.176 NA
+HETATM   24  C   UNL     1      11.969  -0.428  -6.195  1.00  0.00     0.069 C 
+HETATM   25  C   UNL     1      12.820  -0.540  -7.443  1.00  0.00     0.073 C 
+BRANCH  24  26
+HETATM   26  C   UNL     1      12.086  -1.544  -5.207  1.00  0.00     0.092 A 
+HETATM   27  C   UNL     1      13.433  -1.969  -4.726  1.00  0.00     0.261 A 
+HETATM   28  O   UNL     1      14.459  -1.409  -5.100  1.00  0.00    -0.267 OA
+HETATM   29  N   UNL     1      13.486  -3.005  -3.836  1.00  0.00    -0.322 N 
+HETATM   30  C   UNL     1      12.356  -3.669  -3.352  1.00  0.00     0.048 A 
+HETATM   31  H   UNL     1      14.410  -3.270  -3.518  1.00  0.00     0.169 HD
+HETATM   32  C   UNL     1      11.086  -3.289  -3.807  1.00  0.00     0.025 A 
+HETATM   33  C   UNL     1      12.512  -4.691  -2.414  1.00  0.00     0.030 A 
+HETATM   34  C   UNL     1       9.965  -3.953  -3.293  1.00  0.00     0.016 A 
+HETATM   35  C   UNL     1      10.983  -2.200  -4.796  1.00  0.00     0.096 A 
+HETATM   36  C   UNL     1      10.115  -4.972  -2.349  1.00  0.00     0.001 A 
+HETATM   37  C   UNL     1      11.386  -5.342  -1.912  1.00  0.00     0.002 A 
+BRANCH  35  38
+HETATM   38  O   UNL     1       9.696  -1.905  -5.211  1.00  0.00    -0.359 OA
+HETATM   39  H   UNL     1       9.708  -1.194  -5.885  1.00  0.00     0.218 HD
+ENDBRANCH  35  38
+ENDBRANCH  24  26
+ENDBRANCH   2  23
+TORSDOF 9

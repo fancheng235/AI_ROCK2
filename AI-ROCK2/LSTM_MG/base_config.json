@@ -1,0 +1,19 @@
+{
+	"exp_name": "RNN_PyTorch",
+	"data_filename": "./datasets/dataset_cleansed.smi",
+	"data_length": 0,
+	"units": 256,
+	"embedding_dim": 128,
+	"num_epochs": 60,
+	"batch_size": 2048,
+	"validation_split": 0.10,
+	"num_workers": 24,
+	"seed": 71,
+	
+	"sampling_temp": 0.75,
+	"smiles_max_length": 128,
+
+	"finetune_epochs": 12,
+	"finetune_batch_size": 1,
+	"finetune_data_filename": "./datasets/TRPM8_inhibitors_for_fine-tune.smi"
+}

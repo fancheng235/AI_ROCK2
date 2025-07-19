@@ -1,0 +1,57 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_4  and  N_5 
+REMARK       I    between atoms: N_5  and  C_6 
+REMARK       I    between atoms: C_6  and  N_16 
+REMARK    2  A    between atoms: N_16  and  CA_17 
+REMARK    3  A    between atoms: CA_17  and  C_18 
+REMARK    4  A    between atoms: CA_17  and  CB_20 
+REMARK    5  A    between atoms: C_18  and  O_19 
+REMARK    6  A    between atoms: CB_20  and  CG_21 
+ROOT
+HETATM    1  N   UNK A   0       5.005   4.474  -1.140  1.00  0.00    -0.307 N 
+HETATM    2  C   UNK A   0       4.224   3.490  -0.631  1.00  0.00     0.321 C 
+HETATM    3  O   UNK A   0       4.701   2.374  -0.435  1.00  0.00    -0.247 OA
+HETATM    4  H   UNK A   0       5.973   4.174  -1.252  1.00  0.00     0.170 HD
+ATOM      5  N   TRP A   1       2.930   3.782  -0.354  1.00  0.00    -0.336 N 
+ATOM      6  H   TRP A   1       2.796   4.679   0.087  1.00  0.00     0.164 HD
+ENDROOT
+BRANCH   5   7
+ATOM      7  CA  TRP A   1       1.975   2.744   0.059  1.00  0.00     0.114 C 
+BRANCH   7   8
+ATOM      8  C   TRP A   1       2.126   2.451   1.562  1.00  0.00     0.189 C 
+BRANCH   8   9
+ATOM      9  O   TRP A   1       1.921   3.640   2.329  1.00  0.00    -0.399 OA
+ATOM     10  H   TRP A   1       2.804   4.021   2.479  1.00  0.00     0.209 HD
+ENDBRANCH   8   9
+ENDBRANCH   7   8
+BRANCH   7  11
+ATOM     11  CB  TRP A   1       0.532   3.174  -0.284  1.00  0.00     0.068 C 
+BRANCH  11  12
+ATOM     12  CG  TRP A   1       0.182   2.983  -1.737  1.00  0.00    -0.028 A 
+ATOM     13  CD2 TRP A   1      -0.843   2.131  -2.271  1.00  0.00    -0.002 A 
+ATOM     14  CE2 TRP A   1      -0.808   2.250  -3.662  1.00  0.00     0.042 A 
+ATOM     15  CE3 TRP A   1      -1.797   1.262  -1.702  1.00  0.00     0.014 A 
+ATOM     16  CZ2 TRP A   1      -1.673   1.548  -4.509  1.00  0.00     0.030 A 
+ATOM     17  NE1 TRP A   1       0.195   3.138  -3.966  1.00  0.00    -0.365 N 
+ATOM     18  CH2 TRP A   1      -2.608   0.695  -3.918  1.00  0.00     0.002 A 
+ATOM     19  CZ3 TRP A   1      -2.672   0.553  -2.535  1.00  0.00     0.001 A 
+ATOM     20  HE1 TRP A   1       0.458   3.406  -4.904  1.00  0.00     0.165 HD
+ATOM     21  CD1 TRP A   1       0.788   3.591  -2.821  1.00  0.00     0.096 A 
+ENDBRANCH  11  12
+ENDBRANCH   7  11
+ENDBRANCH   5   7
+BRANCH   1  22
+HETATM   22  C   UNK A   0       4.776   5.762  -1.688  1.00  0.00     0.066 A 
+HETATM   23  C   UNK A   0       3.522   6.375  -1.797  1.00  0.00     0.038 A 
+HETATM   24  C   UNK A   0       3.387   7.647  -2.368  1.00  0.00    -0.059 A 
+HETATM   25  C   UNK A   0       2.039   8.293  -2.495  1.00  0.00     0.048 C 
+HETATM   26  C   UNK A   0       4.522   8.290  -2.865  1.00  0.00     0.020 A 
+HETATM   27  C   UNK A   0       5.781   7.678  -2.786  1.00  0.00    -0.005 A 
+HETATM   28  C   UNK A   0       5.923   6.407  -2.188  1.00  0.00     0.093 A 
+HETATM   29  C   UNK A   0       6.924   8.301  -3.306  1.00  0.00     0.015 A 
+HETATM   30  N   UNK A   0       7.130   5.796  -2.109  1.00  0.00    -0.258 NA
+HETATM   31  C   UNK A   0       8.208   6.427  -2.624  1.00  0.00     0.117 A 
+HETATM   32  C   UNK A   0       8.156   7.667  -3.228  1.00  0.00     0.020 A 
+ENDBRANCH   1  22
+TORSDOF 6
